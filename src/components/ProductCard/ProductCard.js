@@ -12,7 +12,7 @@ function ProductCard({ product }) {
     <div className="product-card">
       <p> {product.title}</p>
       <p> {product.price.value}</p>
-      
+      <img src='logo192.png'></img>
       
       <ReduxAddToCart product={product}/>
     </div>
