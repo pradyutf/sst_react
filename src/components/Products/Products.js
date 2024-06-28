@@ -40,7 +40,6 @@ function Products() {
 
   let [products, setProducts] = useState([]);
   console.log("products")
-  console.log(useWindowSize());
   useEffect(() => {
     fetch("https://run.mocky.io/v3/1c9a787b-3e6b-4fc2-9460-f908e2e3cc29").then(
       (response) => {

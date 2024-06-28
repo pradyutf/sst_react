@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { addToCart, removeFromCart } from "../../store.js";
+import { addToCart, removeFromCart } from "../store.js";
 function ReduxAddToCart({ product }) {
     console.log("add to cart", product.id);
     // useSelector
