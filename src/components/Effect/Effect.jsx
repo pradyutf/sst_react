@@ -22,10 +22,10 @@ function Effect() {
 
     return (
         <div>
-            <button onClick={() => {setCount(count+1)}}>Add</button>
+            {/* <button onClick={() => {setCount(count+1)}}>Add</button>
             <p>{ count}</p>
             <button onClick={() => { setCount1(count1 + 1) }}>Add 1</button>
-            <p> { count1}</p>
+            <p> { count1}</p> */}
         </div>
     );
 }
