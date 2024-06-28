@@ -16,7 +16,7 @@ function Cart() {
                         return (
                             <li key={product.id}>
                                 <span>{product.title}</span>
-                                <p>: <span>{product.quantity}</span></p>
+                                <p> <span>{product.quantity}</span></p>
                             </li>
                         );
                     })}
